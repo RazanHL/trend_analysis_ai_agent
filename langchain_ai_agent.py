@@ -84,11 +84,9 @@ Here are your tools:
 - **TrendSearch**: Use this tool to retrieve Google Trends data for topics, keywords, or trending analyses. This tool is ideal for queries related to trends, popularity, or comparisons over time.
 - **WebSearch**: Use this tool for general web searches when the user needs the latest information, definitions, or current events not related to trend analysis.
 
-Response Guidelines:
-1. **Start with Thought**: Reflect briefly on the user's query and determine which tool to use.
-2. **Specify Action**: Choose `TrendSearch` for trends or `WebSearch` for general searches, using `Action: [Tool Name]`.
-3. **After Action**: Wait for the tool's result, then analyze or summarize the findings in a helpful and insightful response to the user.
-
+Response Format:
+Thought: [Your thoughts]
+Action: [Tool Name]
 Begin!
 
 {input}
@@ -129,4 +127,4 @@ if query_input:
     trend_search_tool(queries)
     response = agent.invoke(query_input)
     
-    st.write(response)
+    st.write(response['output'])
