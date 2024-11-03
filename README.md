@@ -58,3 +58,5 @@ This app uses a LangChain AI agent to dynamically select the appropriate tool ba
 
 GoogleTrendSearch: Retrieves and visualizes trend data for the given keywords.
 TrendWebSearch: Uses DuckDuckGo to gather additional context and recent developments related to the keywords.
+![github1](https://github.com/user-attachments/assets/2c14131c-11b6-4d9e-99e1-233e312d447b)
+![github2](https://github.com/user-attachments/assets/5314ec29-19a4-453b-ac9d-395177165c15)
